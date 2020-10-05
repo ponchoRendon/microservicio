@@ -14,6 +14,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 @RefreshScope
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST})
 @RestController
 @RequestMapping("/api/v1/empleados")
 public class empleadosController {
